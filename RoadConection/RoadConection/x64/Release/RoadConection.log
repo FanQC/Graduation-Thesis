@@ -1,0 +1,58 @@
+﻿生成启动时间为 2016/3/31 18:06:55。
+     1>项目“E:\Further Study\TEST\RoadConection\RoadConection\RoadConection.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\Further Study\TEST\RoadConection\x64\Release\”。
+       InitializeBuildStatus:
+         正在创建“x64\Release\RoadConection.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\RoadConection.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\RoadConection.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt RoadConection.cpp
+         RoadConection.cpp
+     1>d:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\gdal\64bit\include\cpl_string.h(224): warning C4251: “std::_String_val<_Elem,_Alloc>::_Alval”: class“std::allocator<_Ty>”需要有 dll 接口由 class“std::_String_val<_Elem,_Alloc>”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>D:\gdal\64bit\include\gdal_priv.h(436): warning C4251: “GDALColorTable::aoEntries”: class“std::vector<_Ty>”需要有 dll 接口由 class“GDALColorTable”的客户端使用
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>D:\opencv\opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>D:\opencv\opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>RoadConection.cpp(28): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>RoadConection.cpp(29): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.h(153) : 参见“asctime”的声明
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Further Study\TEST\RoadConection\x64\Release\RoadConection.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib gdal_i.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\RoadConection.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Further Study\TEST\RoadConection\x64\Release\RoadConection.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Further Study\TEST\RoadConection\x64\Release\RoadConection.lib" /MACHINE:X64 x64\Release\RoadConection.obj
+         x64\Release\stdafx.obj
+            正在创建库 E:\Further Study\TEST\RoadConection\x64\Release\RoadConection.lib 和对象 E:\Further Study\TEST\RoadConection\x64\Release\RoadConection.exp
+         正在生成代码
+         已完成代码的生成
+         RoadConection.vcxproj -> E:\Further Study\TEST\RoadConection\x64\Release\RoadConection.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Further Study\TEST\RoadConection\x64\Release\RoadConection.exe;#1" /manifest x64\Release\RoadConection.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\RoadConection.unsuccessfulbuild”。
+         正在对“x64\Release\RoadConection.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Further Study\TEST\RoadConection\RoadConection\RoadConection.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.39
